@@ -1,0 +1,22 @@
+{
+  "name": "Node-TS-Jest-Boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "build": "tsc",
+    "build-and-test": "npm run build && npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only"
+}
