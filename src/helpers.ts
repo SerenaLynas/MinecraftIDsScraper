@@ -1,4 +1,4 @@
-import { IDs } from "./scrape";
+import { IDs } from "./ids";
 
 function getIDs(ids: IDs, key: 'block' | 'item') {
     const itemIds: string[] = [];

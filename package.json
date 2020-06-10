@@ -28,6 +28,14 @@
     "mc-ids": "dist/cli.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "author": "Splox",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SploxFox/MinecraftIDsScraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SploxFox/MinecraftIDsScraper/issues"
+  },
+  "homepage": "https://github.com/SploxFox/MinecraftIDsScraper#readme"
 }
