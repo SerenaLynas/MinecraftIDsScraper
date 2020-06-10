@@ -3,7 +3,7 @@
 # Examples
 
 ## List of IDs
-You can get a list of the IDs of the current version like so:
+You can get an array of the non-namespaced IDs of the current version like so:
 ```
 import { minecraftIDs } from 'mc-ids';
 
@@ -24,7 +24,7 @@ import { BlockID } from 'mc-ids';
 
 const id: BlockID = 'acacia_button';
 ```
-Different types are useful because it prevents you from putting something like a stick, which isn't a block, into something that requires a block form.
+Different types are useful because it prevents you from putting something like a stick, which isn't a block, into something that requires a block form (such as setblock).
 
 There are three types:
 * **BlockID**: The ID of a block only. For example, there is no 'stick' block (even though there is a stick item), so 'stick' wouldn't fit this type.
@@ -82,3 +82,6 @@ npx scrape-mc-ids "PATH_TO_OUT_FILE" txt [all|blocks|items|combined]
     }
     ```
 You can also use `minecraftIDs.combined` to access the combined format.
+
+# Source Code
+[Source code is available on GitHub.](https://github.com/SploxFox/MinecraftIDsScraper/issues)
