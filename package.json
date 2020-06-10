@@ -1,6 +1,6 @@
 {
   "name": "mc-ids",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A full list of Minecraft IDs, with built-in type support and a command-line scraper to grab updated IDs from the wiki.",
   "main": "dist/index.js",
   "dependencies": {
