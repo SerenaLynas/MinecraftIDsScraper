@@ -4,7 +4,7 @@
   "description": "A full list of Minecraft IDs, with built-in type support and a command-line scraper to grab updated IDs from the wiki.",
   "main": "dist/index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "commander": "^5.1.0",
     "fs-extra": "^9.0.1"
